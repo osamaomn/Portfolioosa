@@ -36,10 +36,13 @@ a .btn:hover,
   background-color: #ffbc00;
 }
 
+/*contact*/
 .bg-main {
   background: #ffbc00;
   color: #fff;
 }
+
+/*about*/
 
 .bg-dark {
   background: #333;
@@ -51,6 +54,7 @@ a .btn:hover,
   color: #000;
 }
 
+/**/
 .lead {
   font-size: 1.3rem;
   margin-bottom: 2rem;
@@ -92,6 +96,8 @@ a .btn:hover,
   margin: 4rem 0;
 }
 
+/*Section A*/
+
 .section-title {
   font-size: 2rem;
   display: block;
@@ -109,6 +115,7 @@ a .btn:hover,
   margin: 0 auto 1rem auto;
 }
 
+/*work*/
 .items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -145,7 +152,7 @@ a .btn:hover,
 }
 .item-image {
   height: auto;
-  transform: translateZ(0);
+  transform: translateY(0);
   display: block;
   transition: transform 750ms cubic-bezier(0.2, 1, 0.3, 1);
 }
@@ -195,7 +202,7 @@ a .btn:hover,
   opacity: 0.7;
   margin: 0;
 }
-
+/*nu kör vi*/
 * {
   margin: 0;
   padding: 0;
@@ -232,7 +239,7 @@ img {
   color: #fff;
   text-transform: uppercase;
 }
-
+/*nav-flexbox*/
 #main-nav {
   display: flex;
   justify-content: space-between;
@@ -259,6 +266,7 @@ img {
   border-color: #ffbc00;
 }
 
+/*index home*/
 #header-home {
   background: url("../img/showcase.jpg") no-repeat center right/cover;
   height: 100vh;
@@ -273,12 +281,14 @@ img {
   line-height: 1.2;
 }
 
+/*about*/
 #header-inner {
   background: url("../img/showcase.jpg") no-repeat 20% 30% / cover;
   height: 5.5rem;
   border-bottom: 3px solid #ffbc00;
 }
-
+/**/
+/*index home-grid*/
 #home-a .specials {
   margin-top: 3rem;
   display: grid;
@@ -357,6 +367,7 @@ img {
   color: #fff;
 }
 
+/*about-grid*/
 #about-a .about-info {
   display: grid;
   grid-template-areas: "bioimage bio bio" "aw1 aw2 aw3";
@@ -437,7 +448,7 @@ img {
   border-radius: 50%;
   margin-right: 0.5rem;
 }
-
+/*contact-grid*/
 #contact-a .text-fields {
   display: grid;
   grid-template-areas: "name email" "subject phone" "message message";
