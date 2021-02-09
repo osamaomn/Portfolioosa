@@ -5,7 +5,6 @@
   overflow: hidden;
 }
 
-.btn-main,
 .btn-light,
 .btn-dark {
   display: inline-block;
@@ -15,16 +14,13 @@
   cursor: pointer;
 }
 
-.btn-main {
-  color: #333;
-  background-color: #ffbc00;
-}
-
+/*header*/
 .btn-light {
   color: #333;
   background-color: #f4f4f4;
 }
 
+/*sectionA-contact*/
 .btn-dark {
   color: #f4f4f4;
   background-color: #333;
@@ -115,7 +111,7 @@ a .btn:hover,
   margin: 0 auto 1rem auto;
 }
 
-/*work*/
+/*work-section A*/
 .items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -324,12 +320,15 @@ img {
   background: #ccc;
 }
 
+/*home-c*/
 #home-c .process {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1.5rem;
   text-align: center;
 }
+
+/*numbers in the icon*/
 #home-c .process-step {
   position: absolute;
   top: 0;
@@ -344,6 +343,8 @@ img {
   padding: 1rem;
   transition: all 1s;
 }
+
+/*icon*/
 #home-c .process-icon {
   border-radius: 50%;
   background: #333;
@@ -490,6 +491,7 @@ img {
   font-size: 4rem;
 }
 
+/*footer*/
 #main-footer {
   background: #333;
   color: #fff;
